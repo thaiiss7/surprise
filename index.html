@@ -6,7 +6,7 @@
     <title>Surprise &lt;3</title>
 
     <!-- imagem de icone e css -->
-    <link rel="icon" type="image/png" href=".assets/favicon.ico" >
+    <link rel="icon" type="image/png" href="./assets/favicon.png" sizes="32x32">
     <link rel="stylesheet" href="style.css">
 
     <!-- recursos como fontes -->
@@ -17,13 +17,21 @@
 <body>
     <div class="container">
         <header>
-            <h1>For you &lt;3</h1>
+            <h1>Surprise &lt;3</h1>
     
             <div class="shrink-close-icons">
                 <img src="./assets/shrink-icon.png" alt="Shrink Icon" class="shrink-icon"/>
                 <img src="./assets/close-icon.png" alt="Close Icon" class="shrink-icon" />
             </div>
         </header>
+
+        <div class="inner-container">
+            <!-- imagem carregada do css -->
+            <div class="image-content"></div>
+            <button id="main-button">Grow!</button>
+            <!-- mensagem final -->
+            <div class="final-message">Have a good day &lt;3</div>
+        </div>
     </div>
 
     <script src="script.js"></script>
