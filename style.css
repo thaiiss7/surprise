@@ -1,0 +1,30 @@
+/* customização de variáveis */
+:root {
+    /* cores */
+    --color-page-background: #50AFC9;
+    --color-main-container-background: #FF5B70;
+    --color-inner-container-background: #FFF7F4;
+    --color-border: #9E0E2B;
+    --color-button-background: #FFF;
+    --color-heading-text: #FFF;
+    --color-button-text: #9E0E2B;
+    --color-message-text: #9E0E2B;
+
+    /* imagens */
+    --image-path-background: url('assets/main-bg.png');
+    --image-path-content: url('assets/image-content/image-1.png');
+
+    /* fontes */
+    --font-family-main: "Pixelify Sans", sans-serif;
+    --font-size-large: 1.75rem;
+    --font-size-medium: 1.5635rem;
+
+    /* border radius */
+    --border-width-main: 3px;
+    --border-width-inner: 3.413px;
+
+    /* espaçamento */
+    --padding-container: 0.62538rem;
+    --gap-icons: 0.375rem;
+    --gap-button: 0.58369rem;
+}
