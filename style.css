@@ -160,3 +160,32 @@ header {
 #main-button:hover {
     transform: scale(1.05);
 }
+
+/* mensagem final */
+.final-message {
+    display: none;
+    color: var(--color-message-text);
+    text-align: center;
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-large);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4px;
+}
+
+/* styles para mobile */
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: bottom center;
+    }
+
+    .container {
+        margin: 1rem;
+    }
+
+    h1 {
+        font-size: calc(var(--font-size-large) - 0.25rem);
+    }
+}
