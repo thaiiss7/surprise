@@ -1,4 +1,3 @@
-//array com as imagens
 const images = [
     './assets/image-content/image-1.png',
     './assets/image-content/image-2.png',
@@ -8,12 +7,10 @@ const images = [
     './assets/image-content/image-6.png'
 ];
 
-//conecta os elementos html que precisam ser manipulados
 const imageContent = document.querySelector('.image-content');
 const mainButton = document.getElementById('main-button');
 const finalMessage = document.querySelector('.final-message');
 
-//procura a imagem atual
 let currentIndex = 0;
 
 function updateImage() {
@@ -29,19 +26,15 @@ function updateImage() {
     };
 }
 
-//mostra a primeira imagem
 updateImage();
 
-//configura o botão
 mainButton.addEventListener('click', () => {
     currentIndex++;
 
-    //se não estiver no final
     if (currentIndex < images.length) {
         updateImage();
     }
 
-    //se estiver na ultima imagem
     if (currentIndex === images.length - 1) {
         mainButton.style.display = 'none';
         finalMessage.style.display = 'block';
